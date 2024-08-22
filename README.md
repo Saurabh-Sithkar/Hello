@@ -75,14 +75,10 @@ Welcome to **Hello**, a responsive chat application built using Vite and Firebas
 - **Chat**: Start a conversation with any user.
 - **Send Images**: Share pictures with your chat contacts.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contributing
 
 Feel free to fork this project and submit pull requests. We welcome contributions to improve this app!
 
 ---
 
-This README file gives a clear overview of your chat application, including its features, setup instructions, and usage. You can modify it further to suit your specific needs.
+This README file gives a clear overview of my chat application, including its features, setup instructions, and usage. You can modify it further to suit your specific needs.
