@@ -1,0 +1,77 @@
+.login{
+    min-height: 100vh;
+    background: url(/background.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login .logo{
+    width: max(20vw,200px);
+}
+.login-form{
+    background: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.login-form h2{
+    font-weight: 500;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.form-input{
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    outline-color:#077EFF;   
+}
+ 
+
+.login-form button{
+    padding: 10px;
+    background: linear-gradient(to right,  orange, green, rgb(60, 60, 167), purple); /* Use 'background' instead of 'background-color' */
+    color: white; 
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-term{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.login-forgot{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.login-toggle{
+    font-size: 13px;
+    color: #5c5c5c;
+}
+.login-toggle span{
+    font-weight: 500;
+    background: linear-gradient(to right, red, rgb(78, 53, 6), green, rgb(9, 9, 79), rgb(121, 37, 121));
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .login{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+}
